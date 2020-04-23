@@ -241,6 +241,7 @@ class MP4Stream {
                             if (!viewer.inited) {
                                 viewer.callback(this.ftyp);
                                 viewer.callback(this.moov);
+                                viewer.inited = true;
                             }
                             const moof = copy(this.pair[0]);
                             const mdata = copy(this.pair[1]);
