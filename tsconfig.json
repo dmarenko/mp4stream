@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"target": "esnext",
+		"module": "commonjs",
+		"strict": true,
+		"lib": ["es2015"],
+		"declaration": true,
+        "declarationDir": "typings",
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"dist",
+		"typings"
+	]
+}
