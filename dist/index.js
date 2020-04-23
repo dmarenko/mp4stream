@@ -267,6 +267,7 @@ class MP4Stream {
         if (this.ftyp && this.moov) {
             callback(this.ftyp);
             callback(this.moov);
+            viewer.inited = true;
         }
     }
     removeViewer(callback) {
